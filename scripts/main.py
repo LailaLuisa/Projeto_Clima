@@ -23,5 +23,5 @@ print(dados_cidades)
 
 #Extraio o Data Frame para um arquivo csv direto na pasta de arquivos do projeto, index para não termos identação de coluna
 
-dados_cidades.to_csv(f'arquivos/clima_cidades.csv', index=False)
+dados_cidades.to_csv('arquivos/clima_cidades.csv', index=False)
 
